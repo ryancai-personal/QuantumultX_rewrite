@@ -1,0 +1,25 @@
+# > 🌏 BiliBili
+DOMAIN-KEYWORD,qiyi,🌏 BiliBili
+DOMAIN-SUFFIX,qy.net,🌏 BiliBili
+IP-CIDR,101.227.0.0/16,🌏 BiliBili,no-resolve
+IP-CIDR,101.224.0.0/13,🌏 BiliBili,no-resolve
+IP-CIDR,119.176.0.0/12,🌏 BiliBili,no-resolve
+DOMAIN-KEYWORD,epic,🌏 BiliBili
+USER-AGENT,bili*,🌏 BiliBili
+USER-AGENT,Bilibili*,🌏 BiliBili
+DOMAIN-SUFFIX,acg.tv,🌏 BiliBili
+DOMAIN-SUFFIX,acgvideo.com,🌏 BiliBili
+DOMAIN-SUFFIX,b23.tv,🌏 BiliBili
+DOMAIN-SUFFIX,bigfun.cn,🌏 BiliBili
+DOMAIN-SUFFIX,bigfunapp.cn,🌏 BiliBili
+DOMAIN-SUFFIX,biliapi.com,🌏 BiliBili
+DOMAIN-SUFFIX,biliapi.net,🌏 BiliBili
+DOMAIN-SUFFIX,bilibili.com,🌏 BiliBili
+DOMAIN-SUFFIX,bilibili.tv,🌏 BiliBili
+DOMAIN-SUFFIX,biligame.com,🌏 BiliBili
+DOMAIN-SUFFIX,biligame.net,🌏 BiliBili
+DOMAIN-SUFFIX,bilivideo.com,🌏 BiliBili
+DOMAIN-SUFFIX,hdslb.com,🌏 BiliBili
+DOMAIN-SUFFIX,im9.com,🌏 BiliBili
+DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 BiliBili
+DOMAIN-SUFFIX,smtcdns.net,🌏 BiliBili
