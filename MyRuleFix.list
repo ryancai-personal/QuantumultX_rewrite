@@ -1,6 +1,8 @@
 # 头条搜索功能修复
 host, is.snssdk.com, Mainland
 host, mon.snssdk.com, Mainland
+
+#短书走中国大陆
 host-keyword, api.duanshu.com, Mainland
 
 # 知乎去广告，以下规则请放置在filter_local最顶部
