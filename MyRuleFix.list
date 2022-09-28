@@ -26,10 +26,6 @@ USER-AGENT,AVOS*,REJECT
 host-suffix,cc.m.jd.com,direct
 
 
-#inoreader
-host,download.maxmind.com,direct
-host,app-measurement.com,direct
-
 
 #笔趣阁
 host-suffix,biqugeu.com,direct
