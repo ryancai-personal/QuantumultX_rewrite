@@ -11,11 +11,10 @@ host, mon.snssdk.com, Mainland
 #短书走中国大陆
 host-keyword, api.duanshu.com, Mainland
 
+
 # 知乎去广告，以下规则请放置在filter_local最顶部
 IP-CIDR,118.89.204.198/32,REJECT
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
-HOST,118.89.204.198,REJECT
-
 # 知乎去广告，以下规则的位置越前方越好
 HOST,appcloud2.in.zhihu.com,REJECT
 HOST,mqtt.zhihu.com,reject
@@ -25,51 +24,13 @@ USER-AGENT,AVOS*,REJECT
 
 host-suffix,cc.m.jd.com,direct
 
-
-
-#笔趣阁
-host-suffix,biqugeu.com,direct
-host-suffix,biquge.com,direct
-host-suffix,laiyifa.org,direct
-#小绿人
-host-suffix,greenmangaming.com,direct
-
 # subhd字幕
 host-suffix,subhd.tv,direct
 host,img.subhd.la,direct
 
-# 衫果
-host,www.sonkwo.hk,direct
-host,static.sonkwo.hk,direct
-host-suffix,sonkwo.hk,direct
 
-# 书旗广告域名,这广告实在太多了，可能误杀，不认识的全禁止了
-#已知
-#host-suffix,pangolin-sdk-toutiao.com,reject
-#未知
-host-suffix,xwuad.com,reject
-#未知
-host-suffix,tobapplog.ctobsnssdk.com,reject
-#已知
-host-suffix,pangolin-sdk-toutiao.com,reject
-#未知
-host-suffix,render.shuqireader.com,reject
-#未知
-host-suffix,ali-stats.jpush.cn,reject
-#已知
-host-suffix,toblog.ctobsnssdk.com,reject
-#未知
-host-suffix,sdk.kaijia.com,reject
-#未知
-host-suffix,tobapplog.ctobsnssdk.com,reject
-#已知
-host-suffix,amdc.m.taobao.com,reject
-#未知
-host-suffix,iyes.youku.com,reject
-#未知
-host-suffix,sq.sljkj.com,reject
-#未知
-host-suffix,s2s.adjust.com,reject
+
+
 # 百度移动广告联盟，可能误杀
 host-suffix,mobads.baidu.com,reject
 # 腾讯广告联盟，可能误杀
@@ -85,41 +46,7 @@ host-suffix,sdk.kaijiawan.com,reject
 host-suffix,ddns.to,direct
 host-suffix,ddnsto.com,direct
 
-# 番茄小说
-host,p6-ad-sign.byteimg.com,reject
-host,p9-ad-sign.byteimg.com,reject
-host-suffix,byteimg.com,direct
-host,dig.bdurl.net,reject
-host,ads3-normal-lq.zijieapi.com,reject
-host,ads5-normal-lq.zijieapi.com,reject
-host,polaris3-normal-lq.zijieapi.com,reject
-host,mcs.snssdk.com,reject
-host,tnc3-alisc1.snssdk.com,reject
-host,security-lq.snssdk.com,reject
-host,tnc3-aliec2.snssdk.com,reject
-host,i.snssdk.com,reject
-host,is.snssdk.com,reject
-host,v6-novelapp.ixigua.com,reject
-host,*novelapp.ixigua.com,reject
-host,msync-im1-vip6-std.easemob.com,reject
-host,apd-pcdnwxlogin.teg.tencent-cloud.net,reject
-host,api.iegadp.qq.com,reject
-host,sf3-ttcdn-tos.pstatp.com,reject
-host-suffix,pglstatp-toutiao.com,reject
-host,*default.ixigua.com,reject
-host,activity-ag.awemeughun.com,reject
-ip-cidr,49.71.37.101/32,reject,no-resolve
-ip-cidr,117.71.105.23/32,reject,no-resolve
-ip-cidr,218.94.207.205/32,reject,no-resolve
-ip-cidr,117.92.229.188/32,reject,no-resolve
-ip-cidr,101.36.166.16/32,reject,no-resolve
-ip-cidr,180.96.2.114/32,reject,no-resolve
-#host,ad.data.lianjia.com,reject
-#host,i.snssdk.com,reject
-#host,imp-toutiao-data.37.com.cn,reject
-#host,reading-hl.snssdk.com,reject
-#host,i-hl.snssdk.com,reject
-#host,mon-lq.snssdk.com,reject
+
 
 # clubhouse
 ip-cidr,164.52.102.0/24,direct
@@ -127,9 +54,6 @@ ip-cidr,164.52.102.0/24,direct
 # 微信小程序
 host,minorshort.weixin.qq.com, direct
 
-# 雀魂麻将
-host,www.maj-soul.com, direct
-host-keyword,maj-soul, direct
 
 # 抖音
 host-suffix,amemv.com,direct
@@ -166,15 +90,6 @@ host, id6.me, direct
 host, o2o-ad-dev.oss-cn-shanghai.aliyuncs.com, reject
 host-suffix, ndsopaapl.nudatasecurity.com, direct
 
-
-
-
-#tieba
-host,aod-image.baidu.com,reject
-host,js-ad.a.yximgs.com,reject
-host,mobads-pre-config.cdn.bcebos.com,reject
-host,nadvideo2.baidu.com,reject
-
 #YouTube 去底部广告
 #host-suffix, ehg-youtube.hitbox.com, reject
 
@@ -194,8 +109,7 @@ host,ubistatic2-a.akamaihd.net,direct
 host-suffix,nssurge.com,Outside
 
 #米读
-host,bid.adview.cn,reject
-host-suffix,afdback.ppsimg.com,reject
+
 host-suffix,fanqianxs.com,direct
 #
 host-suffix,whitemoon.top,direct
