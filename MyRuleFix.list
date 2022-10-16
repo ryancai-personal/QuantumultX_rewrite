@@ -155,11 +155,11 @@ host-suffix, stat.tpns.tencent.com, reject
 host, h.trace.qq.com, reject
 host, h.trace.qq.com, reject
 #爱奇艺广告
-host, cr-status.iqiyi.com, reject
-host-suffix, cupid.iqiyi.com, reject
-host, f74f7f7765f8a2f6.ngaa.net.cn, reject
-host, ef-dongfeng.tanx.com, reject
-host, iqiyim.adtrack.enlightent.cn, reject
+# host, cr-status.iqiyi.com, reject
+# host-suffix, cupid.iqiyi.com, reject
+# host, f74f7f7765f8a2f6.ngaa.net.cn, reject
+# host, ef-dongfeng.tanx.com, reject
+# host, iqiyim.adtrack.enlightent.cn, reject
 
 #网易云登陆验证
 host, id6.me, direct
