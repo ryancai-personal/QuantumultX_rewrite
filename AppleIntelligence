@@ -1,1 +1,11 @@
-
+host-suffix, apps.mzstatic.com, AppleIntelligence
+host-suffix, gateway.icloud.com, AppleIntelligence
+host-suffix, сp4.cloudflare.com, AppleIntelligence
+host-suffix, guzzoni.apple.com, AppleIntelligence
+host-suffix, smoot.apple.com, AppleIntelligence
+host-suffix, apple-relay.fastly-edge.com, AppleIntelligence
+host-suffix, cp4.cloudflare.com, AppleIntelligence
+host-suffix, gspe1-ssl.ls.apple.com, AppleIntelligence
+host-suffix, apple-relay.cloudflare.com, AppleIntelligence
+host-suffix, apple-relay.apple.com, AppleIntelligence
+host-keyword, apple-relay, AppleIntelligence
