@@ -6,3 +6,4 @@ host, apple-relay.cloudflare.com, AISiri
 host, apple-relay.fastly-edge.com, AISiri
 host, cp4.cloudflare.com, AISiri
 host, mask-api.icloud.com, AISiri
+host, gspe1-ssl.ls.apple.com, AISiri
