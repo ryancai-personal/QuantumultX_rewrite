@@ -1,0 +1,8 @@
+host, guzzoni.apple.com, AISiri
+host, seed.siri.apple.com, AISiri
+host-suffix, smoot.apple.com, AISiri
+host, apple-relay.apple.com, AISiri
+host, apple-relay.cloudflare.com, AISiri
+host, apple-relay.fastly-edge.com, AISiri
+host, cp4.cloudflare.com, AISiri
+host, mask-api.icloud.com, AISiri
